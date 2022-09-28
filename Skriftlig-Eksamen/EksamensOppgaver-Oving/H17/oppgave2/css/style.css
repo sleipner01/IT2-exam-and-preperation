@@ -1,0 +1,17 @@
+body {
+    font-family: "Century Gothic", arial, sans-serif;
+    background-color: cornflowerblue;
+    margin: none;
+}
+
+#borgerlig {
+    background-color: blue;
+    height: 40px;
+    width: 0px;
+}
+
+#rg {
+    background-color: red;
+    height: 40px;
+    width: 0px;
+}

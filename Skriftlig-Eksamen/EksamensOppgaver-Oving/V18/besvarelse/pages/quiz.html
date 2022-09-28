@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+</head>
+<body>
+    <div class="meny">
+        <p>Ringve musikkhistoriske <br> museum</p>
+        <a href="../index.html">Hjem</a>
+        <a href="arrangementer.html">Arrangementer</a>
+        <a href="#">Quiz</a>
+    </div>
+    <div class="innpakning">
+        <div class="meny2">
+            <img src="../../Vedlegg_V18/aapningstider.jpg" alt="Åpningstider" width="85" id="aapningstider">
+            <img src="../../Vedlegg_V18/priser.jpg" alt="Priser" width="85" id="priser">
+            <img src="../../Vedlegg_V18/informasjon.jpg" alt="Informasjon" width="85" id="informasjon">
+        </div>
+        <div class="spill">
+            <div class="label">
+                <label>Fagott<br><img src="../../Vedlegg_V18/fagott.jpg" alt="fagott" id="fagott"></label>
+                <label>Fløyte<br><img src="../../Vedlegg_V18/floyte.gif" alt="fløyte" id="floyte"></label>
+                <label>Klarinett<br><img src="../../Vedlegg_V18/klarinett.jpg" alt="klarinett" id="klarinett"></label>
+                <label>Obo<br><img src="../../Vedlegg_V18/obo.jpg" alt="obo" id="obo"></label>
+                <label>Valthorn<br><img src="../../Vedlegg_V18/valthorn.jpg" alt="valthorn" id="valthorn"></label>
+            </div>
+            <div style="display: none;">
+                <audio src="../../Vedlegg_V18/fagott.mp3" id="fagottLyd"></audio>
+                <audio src="../../Vedlegg_V18/floyte.mp3" id="floyteLyd"></audio>
+                <audio src="../../Vedlegg_V18/klarinett.mp3" id="klarinettLyd"></audio>
+                <audio src="../../Vedlegg_V18/obo.mp3" id="oboLyd"></audio>
+                <audio src="../../Vedlegg_V18/valthorn.mp3" id="valthornLyd"></audio>
+                <audio src="../../Vedlegg_V18/feil.mp3" id="feilLyd"></audio>
+                <audio src="../../Vedlegg_V18/riktig.mp3" id="riktigLyd"></audio>
+            </div>
+            <button id="spillAv">Spill av lyd</button>
+            <div id="forsok">
+                <p id="antallForsok">Antall forsøk: 0</p>
+                <p id="sisteForsok"></p>
+
+                <h3>Highscore</h3>
+                <div id="highScore"></div>
+            </div>
+            <div id="info-aapningstider">
+                <h1>Åpningstider</h1>
+                <p><b>Tirsdag - Søndag</b> | 11:00 - 16:00</p>
+            </div>
+            <div id="info-priser">
+                <h1>Billetter</h1>
+                <p><b>Voksen:</b> 120kr</p>
+                <p><b>Student/honnør:</b> 100kr</p>
+                <p><b>Barn(0-15 år):</b> Gratis</p>
+            </div>
+            <div id="info-informasjon">
+                <h1>Informasjon</h1>
+                <p><b>Besøksadresse:</b> Lade allé 60, 7041 Trondheim</p>
+                <p><b>Telefon:</b> 73870280</p>
+                <p><b>E-post:</b> <a href="mailto:">post@ringve.no</a></p>
+                <p><b>Postadresse:</b> Postboks 6289 Torgarden, 7489 Trondheim</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/script3.js"></script>
+</body>
+</html>

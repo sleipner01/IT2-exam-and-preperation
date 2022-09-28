@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>H18</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <div class="innpakning">
+        <h1>Snøfjell utleie</h1>
+        
+        <video src="../Vedlegg_H18/hyttefeltFerdig.mp4" width="600" controls></video>
+
+        <img src="../Vedlegg_H18/menybilde.jpg" height="360" alt="bilde av hyttefelt" id="menybilde">
+    </div>
+
+    <div id="forgrunnsvindu">
+        <div id="bildeserie">
+            <div id="forrige">Forrige</div>
+            <img src="" alt="bilde" id="bilder">
+            <div id="neste">Neste</div>
+        </div>
+        <div id="info">
+            <p id="hyttenavn">Hyttenavn:</p>
+            <p id="sengeplasser">Sengeplasser:</p>
+            <p id="standard">Standard:</p>
+        </div>
+        <div id="lukk">Lukk</div>
+    </div>
+
+    <h2>Booking</h2>
+    <div id="booking">
+        <select id="ferie">
+            <option hidden></option>
+            <option value="jul">Jul</option>
+            <option value="vinterferie">Vinterferie</option>
+            <option value="paaske">Påske</option>
+        </select>
+        <button id="sjekkBooking">Sjekk ledige hytter</button>
+        <div id="bookingDel">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

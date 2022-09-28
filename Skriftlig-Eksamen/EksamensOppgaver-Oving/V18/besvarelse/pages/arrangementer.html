@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kim</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="meny">
+        <p>Ringve musikkhistoriske <br> museum</p>
+        <a href="../index.html">Hjem</a>
+        <a href="#">Arrangementer</a>
+        <a href="quiz.html">Quiz</a>
+    </div>
+    <div class="innpakning">
+        <div class="meny2">
+            <img src="../../Vedlegg_V18/aapningstider.jpg" alt="Åpningstider" width="85" id="aapningstider">
+            <img src="../../Vedlegg_V18/priser.jpg" alt="Priser" width="85" id="priser">
+            <img src="../../Vedlegg_V18/informasjon.jpg" alt="Informasjon" width="85" id="informasjon">
+        </div>
+        <div class="innhold-arrangementer">
+            <div class="inputs">
+                <h2>Velg antall personer som skal med:</h2>
+                <label>Antall voksne (100kr/pr):</label>
+                <input type="number" name="antallVoksne" id="antallVoksne" required><br>
+                <label>Antall barn (50kr/pr):</label> 
+                <input type="number" name="antallBarn" id="antallBarn" required>
+            </div>
+            <table>
+                <h2>Velg arrangement:</h2>
+                <tr class="header">
+                    <th>Arrangement</th>
+                    <th>Dato</th>
+                    <th>Tidspunkt</th>
+                    <th>Informasjon</th>
+                    <th>Bestill</th>
+                </tr>
+                <tr>
+                    <td>Trondheim kammermusikkfestival: <br>Fabelaktig formiddag</td>
+                    <td>1. juni</td>
+                    <td>11:00</td>
+                    <td>Dette er barnas og familiens festivaldag. Én billett gjelder for alt, og du kan velge mellom en rekke ulike forestillinger.</td>
+                    <td><button id="ff" value="Trondheim kammermusikkfestival: Fabelaktig formiddag">Bestill</button></td>
+                </tr>
+                <tr>
+                    <td>Spill opp!</td>
+                    <td>4. juni</td>
+                    <td>14:30</td>
+                    <td>Mastereksamen NTNU fløyte <br>v/Matthias Lauga</td>
+                    <td><button id="spillOpp" value="Spill opp!">Bestill</button></td>
+                </tr>
+                <tr>
+                    <td>Onsdagskonsert</td>
+                    <td>6. juni</td>
+                    <td>13:00</td>
+                    <td>Barokke treblåserensembler</td>
+                    <td><button id="onsdagskonsert" value="Onsdagskonsert">Bestill</button></td>
+                </tr>
+                <tr>
+                    <td>Juliogat: Joik for folk</td>
+                    <td>9. juni</td>
+                    <td>14:00</td>
+                    <td>En vandring i samisk musikkhistoriske <br>ved Lena Jansen</td>
+                    <td><button id="juliogat" value="Juliogat: Joik for folk">Bestill</button></td>
+                </tr>
+            </table>
+            <div id="kvittering"></div>
+            <!--Meny2-->
+            <div id="info-aapningstider">
+                <h1>Åpningstider</h1>
+                <p><b>Tirsdag - Søndag</b> | 11:00 - 16:00</p>
+            </div>
+            <div id="info-priser">
+                <h1>Billetter</h1>
+                <p><b>Voksen:</b> 120kr</p>
+                <p><b>Student/honnør:</b> 100kr</p>
+                <p><b>Barn(0-15 år):</b> Gratis</p>
+            </div>
+            <div id="info-informasjon">
+                <h1>Informasjon</h1>
+                <p><b>Besøksadresse:</b> Lade allé 60, 7041 Trondheim</p>
+                <p><b>Telefon:</b> 73870280</p>
+                <p><b>E-post:</b> <a href="mailto:">post@ringve.no</a></p>
+                <p><b>Postadresse:</b> Postboks 6289 Torgarden, 7489 Trondheim</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script2.js"></script>
+</body>
+</html>

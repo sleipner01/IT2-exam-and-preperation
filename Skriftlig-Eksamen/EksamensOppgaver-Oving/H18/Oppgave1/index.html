@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>H18</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <div class="inputs">
+        <h3>Pris Voksne: 200kr per dag</h3>
+        <h3>Pris Barn: 100kr per dag</h3>
+        <label for="voksne">Antall voksne:</label>
+        <input type="number" name="antallVoksne" id="antallVoksne"><br>
+        <label for="barn">Antall barn:</label>
+        <input type="number" name="antallBarn" id="antallBarn"><br>
+        <label for="dag1">Fra:</label>
+        <input type="date" name="fra" id="fra">
+        <label for="sisteDag">Til:</label>
+        <input type="date" name="til" id="til">
+        <input type="number" name="antallDager" id="antallDager"><br>
+
+        <button id="sjekkPris">Sjekk pris</button>
+    </div>
+    <div class="bestillingsinfo">
+        <p id="avslag">Avslag:</p>
+        <p id="sum">Sum:</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

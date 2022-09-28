@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kaloriforbruk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <h1>Treningskalkultor</h1>
+    <select name="ovelse" id="ovelse">
+        <option hidden>Velg aktivitet</option>
+        <option name="Aerobics" value="aerobics">Aerobics (814 kcal/time)</option>
+        <option name="Bordtennis" value="bordtennis">Bordtenis (236 kcal/time)</option>
+        <option name="Fotball"value="fotball">Fotball (510 kcal/time)</option>
+        <option name="Golf" value="golf">Golf (244 kcal/time)</option>
+        <option name="Jogging" value="jogging">Jogging (666 kcal/time)</option>
+    </select>
+
+    <br>
+
+    <h4>Velg intensitet:</h4>
+    <input type="radio" name="Lav" id="lav">
+    <label>Lav</label><br>
+    <input type="radio" name ="Middels" id="middels">
+    <label>Middels</label><br>
+    <input type="radio" name="Høy" id="hoy">
+    <label>Høy</label><br>
+
+    <h4>Oppgi varighet på treningen i minutter:</h4>
+    <input type="number" id="varighet"><br> <br>
+
+    <button id="knapp">Beregn kaloriforbruk</button>
+
+    <br><br>
+    <div id="data"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

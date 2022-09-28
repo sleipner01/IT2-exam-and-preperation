@@ -1,0 +1,24 @@
+body {
+    font-family: "Century Gothic", arial, sans-serif;
+    background-color: #888;
+    margin: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.bilder {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin-left: 50px;
+}
+
+.info p {
+    font-size: 24px;
+}
+
+.info2 p {
+    font-size: 24px;
+}

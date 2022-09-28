@@ -1,0 +1,56 @@
+body {
+    font-family: "Century Gothic", arial, sans-serif;
+    background-color: cornflowerblue;
+    margin: none;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.innpakning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#menybilde {
+    margin-top: 10px;
+}
+
+#forgrunnsvindu {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 600px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    color: white;
+
+}
+
+#bildeserie {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#forrige {
+    order: 1;
+}
+
+#bilder {
+    order: 2;
+}
+
+#neste {
+    order: 3;
+}
+
+#forrige, #neste, #lukk {
+    cursor: pointer;
+
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: "Century Gothic", arial, sans-serif;
+    background-color: cornflowerblue;
+    margin: none;
+}
+
+#innhold h4 {
+    background-color: gray;
+    cursor: pointer;
+    padding: 5px;
+    min-width:  fit-content;
+    width: 60px;
+}
+
+#innhold h4:hover {
+    background-color: black;
+    color: white;
+}
+
+#skjema {
+    display: none;
+}

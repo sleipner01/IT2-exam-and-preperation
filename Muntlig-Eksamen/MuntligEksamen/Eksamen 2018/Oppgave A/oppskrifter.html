@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <img src="media/ost.jpg" alt="" class="bilde">
+    <div class="meny">
+        <a href="index.html">Hjem</a>
+        <a href="produkter.html">Produkter</a>
+        <a href="oppskrifter.html">Oppskrifter</a>
+    </div>
+    <div id="innhold">
+        <h1>Velg rett:</h1>
+
+        <label>Rett: </label>
+        <select name="retter" id="retter" onchange="ingredienser(this)">
+            <option hidden></option>
+        </select><br>
+
+        <label>Porsjoner: </label>
+        <input type="number" name="porsjoner" id="porsjoner" value="1" onchange="ingredienser()">
+
+        <div id="ingredienser"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
